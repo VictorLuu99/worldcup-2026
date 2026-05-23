@@ -4,23 +4,39 @@ import Header from '~/components/Header.astro';
 import Hero from '~/components/Hero.astro';
 import StatsStrip from '~/components/StatsStrip.astro';
 import Footer from '~/components/Footer.astro';
+import { TimelineView } from '~/components/timeline/TimelineView';
 import { loadAllData } from '~/lib/data';
 
-const { tournament } = loadAllData();
+const data = loadAllData();
+
+// Build venue image map: { sofi: '/_astro/sofi.xxx.webp', azteca: '...', ... }
+const venueImageModules = import.meta.glob<{ default: { src: string } }>('/src/assets/venues/*.jpg', { eager: true });
+const venueImageMap: Record<string, string> = {};
+for (const [path, mod] of Object.entries(venueImageModules)) {
+  const id = path.split('/').pop()!.replace('.jpg', '');
+  venueImageMap[id] = mod.default.src;
+}
 ---
 <Base>
   <Header />
-  <Hero startDate={tournament.startDate} endDate={tournament.endDate} />
+  <Hero startDate={data.tournament.startDate} endDate={data.tournament.endDate} />
   <StatsStrip />
+
   <div id="view-timeline">
-    <main class="container py-12">
-      <p class="text-[var(--text-muted)]">Timeline placeholder — coming in Task 17</p>
-    </main>
+    <TimelineView
+      client:load
+      matches={data.matches}
+      teams={data.teams}
+      venues={data.venues}
+      venueImageMap={venueImageMap}
+    />
   </div>
+
   <div id="view-bracket" style="display:none">
     <main class="container py-12">
       <p class="text-[var(--text-muted)]">Bracket placeholder — coming in Task 18</p>
     </main>
   </div>
-  <Footer lastUpdated={tournament.lastUpdated} />
+
+  <Footer lastUpdated={data.tournament.lastUpdated} />
 </Base>
