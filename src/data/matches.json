@@ -1,7 +1,7 @@
 [
   {
     "id": 1, "matchNumber": 1, "phase": "group", "group": "A",
-    "kickoff": "2026-06-11T18:00:00Z",
+    "kickoff": "2026-06-11T19:00:00Z",
     "venueId": "azteca",
     "home": { "type": "team", "code": "MEX" },
     "away": { "type": "team", "code": "ZAF" },
@@ -9,7 +9,7 @@
   },
   {
     "id": 2, "matchNumber": 2, "phase": "group", "group": "A",
-    "kickoff": "2026-06-12T01:00:00Z",
+    "kickoff": "2026-06-12T02:00:00Z",
     "venueId": "akron",
     "home": { "type": "team", "code": "KOR" },
     "away": { "type": "team", "code": "CZE" },
@@ -25,7 +25,7 @@
   },
   {
     "id": 4, "matchNumber": 4, "phase": "group", "group": "D",
-    "kickoff": "2026-06-12T23:00:00Z",
+    "kickoff": "2026-06-13T01:00:00Z",
     "venueId": "sofi",
     "home": { "type": "team", "code": "USA" },
     "away": { "type": "team", "code": "PAR" },
@@ -41,7 +41,7 @@
   },
   {
     "id": 6, "matchNumber": 6, "phase": "group", "group": "D",
-    "kickoff": "2026-06-14T02:00:00Z",
+    "kickoff": "2026-06-14T04:00:00Z",
     "venueId": "bcplace",
     "home": { "type": "team", "code": "AUS" },
     "away": { "type": "team", "code": "TUR" },
@@ -49,7 +49,7 @@
   },
   {
     "id": 7, "matchNumber": 7, "phase": "group", "group": "C",
-    "kickoff": "2026-06-13T23:00:00Z",
+    "kickoff": "2026-06-13T22:00:00Z",
     "venueId": "metlife",
     "home": { "type": "team", "code": "BRA" },
     "away": { "type": "team", "code": "MAR" },
@@ -89,7 +89,7 @@
   },
   {
     "id": 12, "matchNumber": 12, "phase": "group", "group": "F",
-    "kickoff": "2026-06-15T01:00:00Z",
+    "kickoff": "2026-06-15T02:00:00Z",
     "venueId": "bbva",
     "home": { "type": "team", "code": "SWE" },
     "away": { "type": "team", "code": "TUN" },
@@ -113,7 +113,7 @@
   },
   {
     "id": 15, "matchNumber": 15, "phase": "group", "group": "G",
-    "kickoff": "2026-06-15T19:00:00Z",
+    "kickoff": "2026-06-16T01:00:00Z",
     "venueId": "sofi",
     "home": { "type": "team", "code": "IRN" },
     "away": { "type": "team", "code": "NZL" },
@@ -145,7 +145,7 @@
   },
   {
     "id": 19, "matchNumber": 19, "phase": "group", "group": "J",
-    "kickoff": "2026-06-16T17:00:00Z",
+    "kickoff": "2026-06-17T01:00:00Z",
     "venueId": "arrowhead",
     "home": { "type": "team", "code": "ARG" },
     "away": { "type": "team", "code": "ALG" },
@@ -153,7 +153,7 @@
   },
   {
     "id": 20, "matchNumber": 20, "phase": "group", "group": "J",
-    "kickoff": "2026-06-16T19:00:00Z",
+    "kickoff": "2026-06-17T04:00:00Z",
     "venueId": "levis",
     "home": { "type": "team", "code": "AUT" },
     "away": { "type": "team", "code": "JOR" },
@@ -161,7 +161,7 @@
   },
   {
     "id": 21, "matchNumber": 21, "phase": "group", "group": "L",
-    "kickoff": "2026-06-17T20:00:00Z",
+    "kickoff": "2026-06-17T23:00:00Z",
     "venueId": "bmo",
     "home": { "type": "team", "code": "GHA" },
     "away": { "type": "team", "code": "PAN" },
@@ -185,7 +185,7 @@
   },
   {
     "id": 24, "matchNumber": 24, "phase": "group", "group": "K",
-    "kickoff": "2026-06-18T01:00:00Z",
+    "kickoff": "2026-06-18T02:00:00Z",
     "venueId": "azteca",
     "home": { "type": "team", "code": "UZB" },
     "away": { "type": "team", "code": "COL" },
@@ -217,7 +217,7 @@
   },
   {
     "id": 28, "matchNumber": 28, "phase": "group", "group": "A",
-    "kickoff": "2026-06-19T02:00:00Z",
+    "kickoff": "2026-06-19T01:00:00Z",
     "venueId": "akron",
     "home": { "type": "team", "code": "MEX" },
     "away": { "type": "team", "code": "KOR" },
@@ -225,7 +225,7 @@
   },
   {
     "id": 29, "matchNumber": 29, "phase": "group", "group": "C",
-    "kickoff": "2026-06-20T01:00:00Z",
+    "kickoff": "2026-06-20T00:30:00Z",
     "venueId": "lincoln",
     "home": { "type": "team", "code": "BRA" },
     "away": { "type": "team", "code": "HAI" },
@@ -241,7 +241,7 @@
   },
   {
     "id": 31, "matchNumber": 31, "phase": "group", "group": "D",
-    "kickoff": "2026-06-20T01:00:00Z",
+    "kickoff": "2026-06-20T03:00:00Z",
     "venueId": "levis",
     "home": { "type": "team", "code": "TUR" },
     "away": { "type": "team", "code": "PAR" },
@@ -265,7 +265,7 @@
   },
   {
     "id": 34, "matchNumber": 34, "phase": "group", "group": "E",
-    "kickoff": "2026-06-20T23:00:00Z",
+    "kickoff": "2026-06-21T00:00:00Z",
     "venueId": "arrowhead",
     "home": { "type": "team", "code": "ECU" },
     "away": { "type": "team", "code": "CUW" },
@@ -281,7 +281,7 @@
   },
   {
     "id": 36, "matchNumber": 36, "phase": "group", "group": "F",
-    "kickoff": "2026-06-21T03:00:00Z",
+    "kickoff": "2026-06-21T04:00:00Z",
     "venueId": "bbva",
     "home": { "type": "team", "code": "TUN" },
     "away": { "type": "team", "code": "JPN" },
@@ -377,7 +377,7 @@
   },
   {
     "id": 48, "matchNumber": 48, "phase": "group", "group": "K",
-    "kickoff": "2026-06-24T01:00:00Z",
+    "kickoff": "2026-06-24T02:00:00Z",
     "venueId": "akron",
     "home": { "type": "team", "code": "COL" },
     "away": { "type": "team", "code": "COD" },
@@ -417,7 +417,7 @@
   },
   {
     "id": 53, "matchNumber": 53, "phase": "group", "group": "A",
-    "kickoff": "2026-06-25T02:00:00Z",
+    "kickoff": "2026-06-25T01:00:00Z",
     "venueId": "azteca",
     "home": { "type": "team", "code": "CZE" },
     "away": { "type": "team", "code": "MEX" },
@@ -425,7 +425,7 @@
   },
   {
     "id": 54, "matchNumber": 54, "phase": "group", "group": "A",
-    "kickoff": "2026-06-25T02:00:00Z",
+    "kickoff": "2026-06-25T01:00:00Z",
     "venueId": "bbva",
     "home": { "type": "team", "code": "ZAF" },
     "away": { "type": "team", "code": "KOR" },
@@ -433,7 +433,7 @@
   },
   {
     "id": 55, "matchNumber": 55, "phase": "group", "group": "E",
-    "kickoff": "2026-06-25T21:00:00Z",
+    "kickoff": "2026-06-25T20:00:00Z",
     "venueId": "lincoln",
     "home": { "type": "team", "code": "CUW" },
     "away": { "type": "team", "code": "CIV" },
@@ -441,7 +441,7 @@
   },
   {
     "id": 56, "matchNumber": 56, "phase": "group", "group": "E",
-    "kickoff": "2026-06-25T21:00:00Z",
+    "kickoff": "2026-06-25T20:00:00Z",
     "venueId": "metlife",
     "home": { "type": "team", "code": "ECU" },
     "away": { "type": "team", "code": "GER" },
@@ -465,7 +465,7 @@
   },
   {
     "id": 59, "matchNumber": 59, "phase": "group", "group": "D",
-    "kickoff": "2026-06-26T00:00:00Z",
+    "kickoff": "2026-06-26T02:00:00Z",
     "venueId": "sofi",
     "home": { "type": "team", "code": "TUR" },
     "away": { "type": "team", "code": "USA" },
@@ -473,7 +473,7 @@
   },
   {
     "id": 60, "matchNumber": 60, "phase": "group", "group": "D",
-    "kickoff": "2026-06-26T00:00:00Z",
+    "kickoff": "2026-06-26T02:00:00Z",
     "venueId": "levis",
     "home": { "type": "team", "code": "PAR" },
     "away": { "type": "team", "code": "AUS" },
@@ -497,7 +497,7 @@
   },
   {
     "id": 63, "matchNumber": 63, "phase": "group", "group": "G",
-    "kickoff": "2026-06-27T00:00:00Z",
+    "kickoff": "2026-06-27T03:00:00Z",
     "venueId": "lumen",
     "home": { "type": "team", "code": "EGY" },
     "away": { "type": "team", "code": "IRN" },
@@ -505,7 +505,7 @@
   },
   {
     "id": 64, "matchNumber": 64, "phase": "group", "group": "G",
-    "kickoff": "2026-06-27T00:00:00Z",
+    "kickoff": "2026-06-27T03:00:00Z",
     "venueId": "bcplace",
     "home": { "type": "team", "code": "NZL" },
     "away": { "type": "team", "code": "BEL" },
@@ -529,7 +529,7 @@
   },
   {
     "id": 67, "matchNumber": 67, "phase": "group", "group": "L",
-    "kickoff": "2026-06-27T22:00:00Z",
+    "kickoff": "2026-06-27T21:00:00Z",
     "venueId": "metlife",
     "home": { "type": "team", "code": "PAN" },
     "away": { "type": "team", "code": "ENG" },
@@ -537,7 +537,7 @@
   },
   {
     "id": 68, "matchNumber": 68, "phase": "group", "group": "L",
-    "kickoff": "2026-06-27T22:00:00Z",
+    "kickoff": "2026-06-27T21:00:00Z",
     "venueId": "lincoln",
     "home": { "type": "team", "code": "CRO" },
     "away": { "type": "team", "code": "GHA" },
@@ -561,7 +561,7 @@
   },
   {
     "id": 71, "matchNumber": 71, "phase": "group", "group": "K",
-    "kickoff": "2026-06-28T00:30:00Z",
+    "kickoff": "2026-06-27T23:30:00Z",
     "venueId": "hardrock",
     "home": { "type": "team", "code": "COL" },
     "away": { "type": "team", "code": "POR" },
@@ -569,16 +569,15 @@
   },
   {
     "id": 72, "matchNumber": 72, "phase": "group", "group": "K",
-    "kickoff": "2026-06-28T00:30:00Z",
+    "kickoff": "2026-06-27T23:30:00Z",
     "venueId": "mercedesbenz",
     "home": { "type": "team", "code": "COD" },
     "away": { "type": "team", "code": "UZB" },
     "bracketSlot": null
   },
-
   {
     "id": 73, "matchNumber": 73, "phase": "r32", "group": null,
-    "kickoff": "2026-06-28T17:00:00Z",
+    "kickoff": "2026-06-28T19:00:00Z",
     "venueId": "sofi",
     "home": { "type": "placeholder", "label": "Nhì A" },
     "away": { "type": "placeholder", "label": "Nhì B" },
@@ -586,7 +585,7 @@
   },
   {
     "id": 74, "matchNumber": 74, "phase": "r32", "group": null,
-    "kickoff": "2026-06-29T21:30:00Z",
+    "kickoff": "2026-06-29T20:30:00Z",
     "venueId": "gillette",
     "home": { "type": "placeholder", "label": "Nhất E" },
     "away": { "type": "placeholder", "label": "Top 3 (A/B/C/D/F)" },
@@ -594,7 +593,7 @@
   },
   {
     "id": 75, "matchNumber": 75, "phase": "r32", "group": null,
-    "kickoff": "2026-06-30T02:00:00Z",
+    "kickoff": "2026-06-30T01:00:00Z",
     "venueId": "bbva",
     "home": { "type": "placeholder", "label": "Nhất F" },
     "away": { "type": "placeholder", "label": "Nhì C" },
@@ -610,7 +609,7 @@
   },
   {
     "id": 77, "matchNumber": 77, "phase": "r32", "group": null,
-    "kickoff": "2026-06-30T22:00:00Z",
+    "kickoff": "2026-06-30T21:00:00Z",
     "venueId": "metlife",
     "home": { "type": "placeholder", "label": "Nhất I" },
     "away": { "type": "placeholder", "label": "Top 3 (C/D/F/G/H)" },
@@ -626,7 +625,7 @@
   },
   {
     "id": 79, "matchNumber": 79, "phase": "r32", "group": null,
-    "kickoff": "2026-07-01T02:00:00Z",
+    "kickoff": "2026-07-01T01:00:00Z",
     "venueId": "azteca",
     "home": { "type": "placeholder", "label": "Nhất A" },
     "away": { "type": "placeholder", "label": "Top 3 (C/E/F/H/I)" },
@@ -634,7 +633,7 @@
   },
   {
     "id": 80, "matchNumber": 80, "phase": "r32", "group": null,
-    "kickoff": "2026-07-01T17:00:00Z",
+    "kickoff": "2026-07-01T16:00:00Z",
     "venueId": "mercedesbenz",
     "home": { "type": "placeholder", "label": "Nhất L" },
     "away": { "type": "placeholder", "label": "Top 3 (E/H/I/J/K)" },
@@ -642,23 +641,23 @@
   },
   {
     "id": 81, "matchNumber": 81, "phase": "r32", "group": null,
-    "kickoff": "2026-07-01T20:00:00Z",
-    "venueId": "lumen",
-    "home": { "type": "placeholder", "label": "Nhất G" },
-    "away": { "type": "placeholder", "label": "Top 3 (A/E/H/I/J)" },
+    "kickoff": "2026-07-02T00:00:00Z",
+    "venueId": "levis",
+    "home": { "type": "placeholder", "label": "Nhất D" },
+    "away": { "type": "placeholder", "label": "Top 3 (B/E/F/I/J)" },
     "bracketSlot": "R32-9"
   },
   {
     "id": 82, "matchNumber": 82, "phase": "r32", "group": null,
-    "kickoff": "2026-07-02T17:00:00Z",
-    "venueId": "levis",
-    "home": { "type": "placeholder", "label": "Nhất D" },
-    "away": { "type": "placeholder", "label": "Top 3 (B/E/F/I/J)" },
+    "kickoff": "2026-07-01T20:00:00Z",
+    "venueId": "lumen",
+    "home": { "type": "placeholder", "label": "Nhất G" },
+    "away": { "type": "placeholder", "label": "Top 3 (A/E/H/I/J)" },
     "bracketSlot": "R32-10"
   },
   {
     "id": 83, "matchNumber": 83, "phase": "r32", "group": null,
-    "kickoff": "2026-07-03T00:00:00Z",
+    "kickoff": "2026-07-02T23:00:00Z",
     "venueId": "bmo",
     "home": { "type": "placeholder", "label": "Nhì K" },
     "away": { "type": "placeholder", "label": "Nhì L" },
@@ -682,7 +681,7 @@
   },
   {
     "id": 86, "matchNumber": 86, "phase": "r32", "group": null,
-    "kickoff": "2026-07-03T23:00:00Z",
+    "kickoff": "2026-07-03T22:00:00Z",
     "venueId": "hardrock",
     "home": { "type": "placeholder", "label": "Nhất J" },
     "away": { "type": "placeholder", "label": "Nhì H" },
@@ -704,7 +703,6 @@
     "away": { "type": "placeholder", "label": "Nhì G" },
     "bracketSlot": "R32-16"
   },
-
   {
     "id": 89, "matchNumber": 89, "phase": "r16", "group": null,
     "kickoff": "2026-07-04T21:00:00Z",
@@ -731,7 +729,7 @@
   },
   {
     "id": 92, "matchNumber": 92, "phase": "r16", "group": null,
-    "kickoff": "2026-07-05T23:00:00Z",
+    "kickoff": "2026-07-06T00:00:00Z",
     "venueId": "azteca",
     "home": { "type": "placeholder", "label": "Thắng R32-7" },
     "away": { "type": "placeholder", "label": "Thắng R32-8" },
@@ -739,7 +737,7 @@
   },
   {
     "id": 93, "matchNumber": 93, "phase": "r16", "group": null,
-    "kickoff": "2026-07-06T20:00:00Z",
+    "kickoff": "2026-07-06T19:00:00Z",
     "venueId": "att",
     "home": { "type": "placeholder", "label": "Thắng R32-11" },
     "away": { "type": "placeholder", "label": "Thắng R32-12" },
@@ -747,7 +745,7 @@
   },
   {
     "id": 94, "matchNumber": 94, "phase": "r16", "group": null,
-    "kickoff": "2026-07-06T22:00:00Z",
+    "kickoff": "2026-07-07T00:00:00Z",
     "venueId": "lumen",
     "home": { "type": "placeholder", "label": "Thắng R32-10" },
     "away": { "type": "placeholder", "label": "Thắng R32-9" },
@@ -755,7 +753,7 @@
   },
   {
     "id": 95, "matchNumber": 95, "phase": "r16", "group": null,
-    "kickoff": "2026-07-07T17:00:00Z",
+    "kickoff": "2026-07-07T16:00:00Z",
     "venueId": "mercedesbenz",
     "home": { "type": "placeholder", "label": "Thắng R32-14" },
     "away": { "type": "placeholder", "label": "Thắng R32-16" },
@@ -763,13 +761,12 @@
   },
   {
     "id": 96, "matchNumber": 96, "phase": "r16", "group": null,
-    "kickoff": "2026-07-07T18:00:00Z",
+    "kickoff": "2026-07-07T20:00:00Z",
     "venueId": "bcplace",
     "home": { "type": "placeholder", "label": "Thắng R32-13" },
     "away": { "type": "placeholder", "label": "Thắng R32-15" },
     "bracketSlot": "R16-8"
   },
-
   {
     "id": 97, "matchNumber": 97, "phase": "qf", "group": null,
     "kickoff": "2026-07-09T20:00:00Z",
@@ -788,7 +785,7 @@
   },
   {
     "id": 99, "matchNumber": 99, "phase": "qf", "group": null,
-    "kickoff": "2026-07-11T22:00:00Z",
+    "kickoff": "2026-07-11T21:00:00Z",
     "venueId": "hardrock",
     "home": { "type": "placeholder", "label": "Thắng R16-3" },
     "away": { "type": "placeholder", "label": "Thắng R16-4" },
@@ -802,7 +799,6 @@
     "away": { "type": "placeholder", "label": "Thắng R16-8" },
     "bracketSlot": "QF-4"
   },
-
   {
     "id": 101, "matchNumber": 101, "phase": "sf", "group": null,
     "kickoff": "2026-07-14T19:00:00Z",
@@ -819,7 +815,6 @@
     "away": { "type": "placeholder", "label": "Thắng QF-4" },
     "bracketSlot": "SF-2"
   },
-
   {
     "id": 103, "matchNumber": 103, "phase": "third", "group": null,
     "kickoff": "2026-07-18T21:00:00Z",
@@ -828,7 +823,6 @@
     "away": { "type": "placeholder", "label": "Thua SF-2" },
     "bracketSlot": "THIRD-1"
   },
-
   {
     "id": 104, "matchNumber": 104, "phase": "final", "group": null,
     "kickoff": "2026-07-19T19:00:00Z",
