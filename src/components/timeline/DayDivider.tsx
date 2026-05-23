@@ -4,8 +4,8 @@ const VN_WEEKDAYS = ['Chủ Nhật', 'Thứ Hai', 'Thứ Ba', 'Thứ Tư', 'Th�
 
 interface Props { dayKey: string; sampleIso: string; }
 
-export function DayDivider({ dayKey: _dayKey, sampleIso }: Props) {
-  const weekday = VN_WEEKDAYS[new Date(sampleIso).getUTCDay()];
+export function DayDivider({ dayKey, sampleIso }: Props) {
+  const weekday = VN_WEEKDAYS[new Date(`${dayKey}T12:00:00Z`).getUTCDay()];
   return (
     <div className="flex items-center gap-4 my-6">
       <div className="h-px bg-white/10 flex-1" />

@@ -11,37 +11,39 @@ interface Props {
 }
 
 export function TimelineView({ matches, teams, venues, venueImageMap }: Props) {
-  const [nowMs, setNowMs] = useState(() => Date.now());
+  const [nowMs, setNowMs] = useState<number | null>(null);
 
   useEffect(() => {
+    setNowMs(Date.now());
     const id = setInterval(() => setNowMs(Date.now()), 60_000);
     return () => clearInterval(id);
   }, []);
 
-  const next = getNextUpcomingMatch(matches, nowMs);
+  const next = nowMs !== null ? getNextUpcomingMatch(matches, nowMs) : null;
   const phases = groupMatchesByPhase(matches);
 
-  // Auto-scroll once on first mount
+  // Auto-scroll once when nowMs becomes available (post-mount)
   useEffect(() => {
-    if (!next) return;
+    if (!next || nowMs === null) return;
     const el = document.getElementById(`match-${next.id}`);
     if (el) {
       requestAnimationFrame(() => el.scrollIntoView({ behavior: 'smooth', block: 'center' }));
     }
+    // Run only once when next first resolves — guarded by ref
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [nowMs === null]);
 
   return (
     <>
-      {phases.map(({ phase, matches }) => (
+      {phases.map(({ phase, matches: phaseMatches }) => (
         <PhaseSection
           key={phase}
           phase={phase}
-          matches={matches}
+          matches={phaseMatches}
           teams={teams}
           venues={venues}
           venueImageMap={venueImageMap}
-          nowMs={nowMs}
+          nowMs={nowMs ?? 0}
           nextMatchId={next?.id ?? null}
         />
       ))}

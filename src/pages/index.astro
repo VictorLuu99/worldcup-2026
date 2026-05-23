@@ -7,15 +7,17 @@ import Footer from '~/components/Footer.astro';
 import { TimelineView } from '~/components/timeline/TimelineView';
 import { BracketView } from '~/components/bracket/BracketView';
 import { loadAllData } from '~/lib/data';
+import { getImage } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
 
 const data = loadAllData();
 
-// Build venue image map: { sofi: '/_astro/sofi.xxx.webp', azteca: '...', ... }
-const venueImageModules = import.meta.glob<{ default: { src: string } }>('/src/assets/venues/*.jpg', { eager: true });
+const venueImageModules = import.meta.glob<{ default: ImageMetadata }>('/src/assets/venues/*.jpg', { eager: true });
 const venueImageMap: Record<string, string> = {};
 for (const [path, mod] of Object.entries(venueImageModules)) {
   const id = path.split('/').pop()!.replace('.jpg', '');
-  venueImageMap[id] = mod.default.src;
+  const optimized = await getImage({ src: mod.default, width: 1200, format: 'webp' });
+  venueImageMap[id] = optimized.src;
 }
 ---
 <Base>
