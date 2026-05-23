@@ -393,7 +393,7 @@
   },
   {
     "id": 50, "matchNumber": 50, "phase": "group", "group": "C",
-    "kickoff": "2026-06-24T16:00:00Z",
+    "kickoff": "2026-06-24T22:00:00Z",
     "venueId": "mercedesbenz",
     "home": { "type": "team", "code": "MAR" },
     "away": { "type": "team", "code": "HAI" },
@@ -409,7 +409,7 @@
   },
   {
     "id": 52, "matchNumber": 52, "phase": "group", "group": "B",
-    "kickoff": "2026-06-24T17:00:00Z",
+    "kickoff": "2026-06-24T19:00:00Z",
     "venueId": "lumen",
     "home": { "type": "team", "code": "BIH" },
     "away": { "type": "team", "code": "QAT" },
@@ -521,7 +521,7 @@
   },
   {
     "id": 66, "matchNumber": 66, "phase": "group", "group": "H",
-    "kickoff": "2026-06-26T23:00:00Z",
+    "kickoff": "2026-06-27T00:00:00Z",
     "venueId": "akron",
     "home": { "type": "team", "code": "URU" },
     "away": { "type": "team", "code": "ESP" },

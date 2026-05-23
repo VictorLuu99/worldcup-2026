@@ -11,7 +11,7 @@
 
   { "code": "BRA", "nameVi": "Brazil", "nameEn": "Brazil", "flagClass": "br", "qualified": true, "group": "C" },
   { "code": "MAR", "nameVi": "Maroc", "nameEn": "Morocco", "flagClass": "ma", "qualified": true, "group": "C" },
-  { "code": "SCO", "nameVi": "Scotland", "nameEn": "Scotland", "flagClass": "gb", "qualified": true, "group": "C" },
+  { "code": "SCO", "nameVi": "Scotland", "nameEn": "Scotland", "flagClass": "gb-sct", "qualified": true, "group": "C" },
   { "code": "HAI", "nameVi": "Haiti", "nameEn": "Haiti", "flagClass": "ht", "qualified": true, "group": "C" },
 
   { "code": "USA", "nameVi": "Mỹ", "nameEn": "United States", "flagClass": "us", "qualified": true, "group": "D" },
@@ -54,7 +54,7 @@
   { "code": "UZB", "nameVi": "Uzbekistan", "nameEn": "Uzbekistan", "flagClass": "uz", "qualified": true, "group": "K" },
   { "code": "COD", "nameVi": "CHDC Congo", "nameEn": "DR Congo", "flagClass": "cd", "qualified": true, "group": "K" },
 
-  { "code": "ENG", "nameVi": "Anh", "nameEn": "England", "flagClass": "gb", "qualified": true, "group": "L" },
+  { "code": "ENG", "nameVi": "Anh", "nameEn": "England", "flagClass": "gb-eng", "qualified": true, "group": "L" },
   { "code": "CRO", "nameVi": "Croatia", "nameEn": "Croatia", "flagClass": "hr", "qualified": true, "group": "L" },
   { "code": "PAN", "nameVi": "Panama", "nameEn": "Panama", "flagClass": "pa", "qualified": true, "group": "L" },
   { "code": "GHA", "nameVi": "Ghana", "nameEn": "Ghana", "flagClass": "gh", "qualified": true, "group": "L" }

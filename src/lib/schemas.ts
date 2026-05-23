@@ -17,7 +17,7 @@ export const teamSchema = z.object({
   code: z.string().regex(/^[A-Z]{3}$/, 'code must be uppercase 3 letters').or(z.string().regex(/^TBD-[A-L][1-4]$/)),
   nameVi: z.string().min(1),
   nameEn: z.string().min(1),
-  flagClass: z.string().regex(/^[a-z]{2}$/, 'flag-icons CSS class must be ISO 3166-1 alpha-2').nullable(),
+  flagClass: z.string().regex(/^[a-z]{2}(-[a-z]{2,3})?$/, 'flag-icons CSS class must be ISO 3166-1 alpha-2 (optionally with subdivision)').nullable(),
   qualified: z.boolean(),
   group: z.string().regex(/^[A-L]$/).nullable(),
 });

@@ -31,4 +31,13 @@ for (const g of parsedGroups) {
   }
 }
 
+const start = new Date(tournament.startDate + 'T00:00:00Z');
+const end = new Date(tournament.endDate + 'T23:59:59Z');
+for (const m of parsedMatches) {
+  const ko = new Date(m.kickoff);
+  if (ko < start || ko > end) {
+    throw new Error(`Match ${m.id} kickoff ${m.kickoff} is outside tournament window ${tournament.startDate}..${tournament.endDate}`);
+  }
+}
+
 console.log('All data files valid. 104 matches, 16 venues, 48 teams, 12 groups.');
