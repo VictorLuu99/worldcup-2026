@@ -1,11 +1,17 @@
 ---
+import Base from '~/layouts/Base.astro';
 ---
-<html lang="vi">
-<head>
-  <meta charset="utf-8" />
-  <title>World Cup 2026 Timeline</title>
-</head>
-<body>
-  <h1>WC 2026 — scaffold OK</h1>
-</body>
-</html>
+<Base>
+  <main class="container py-12">
+    <h1 class="font-display text-6xl tracking-[4px] text-white">WORLD CUP 2026</h1>
+    <p class="text-[var(--text-muted)] mt-2">Tokens OK</p>
+    <div class="flex gap-2 mt-4">
+      <span class="inline-block w-12 h-6 rounded" style="background: var(--phase-group)"></span>
+      <span class="inline-block w-12 h-6 rounded" style="background: var(--phase-r32)"></span>
+      <span class="inline-block w-12 h-6 rounded" style="background: var(--phase-r16)"></span>
+      <span class="inline-block w-12 h-6 rounded" style="background: var(--phase-qf)"></span>
+      <span class="inline-block w-12 h-6 rounded" style="background: var(--phase-sf)"></span>
+      <span class="inline-block w-12 h-6 rounded" style="background: var(--phase-final-gradient)"></span>
+    </div>
+  </main>
+</Base>
