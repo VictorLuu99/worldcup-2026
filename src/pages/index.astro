@@ -12,8 +12,15 @@ const { tournament } = loadAllData();
   <Header />
   <Hero startDate={tournament.startDate} endDate={tournament.endDate} />
   <StatsStrip />
-  <main class="container py-12">
-    <p class="text-[var(--text-muted)]">Timeline coming next…</p>
-  </main>
+  <div id="view-timeline">
+    <main class="container py-12">
+      <p class="text-[var(--text-muted)]">Timeline placeholder — coming in Task 17</p>
+    </main>
+  </div>
+  <div id="view-bracket" style="display:none">
+    <main class="container py-12">
+      <p class="text-[var(--text-muted)]">Bracket placeholder — coming in Task 18</p>
+    </main>
+  </div>
   <Footer lastUpdated={tournament.lastUpdated} />
 </Base>
