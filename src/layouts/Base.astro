@@ -15,7 +15,11 @@ import '~/styles/global.css';
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="/og-card.jpg" />
+    <meta property="og:url" content={Astro.url.toString()} />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="/og-card.jpg" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
   </head>
   <body>
     <slot />
