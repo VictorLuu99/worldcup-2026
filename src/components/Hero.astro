@@ -1,0 +1,24 @@
+---
+import { Image } from 'astro:assets';
+import banner from '~/assets/hero/wc2026-banner.jpg';
+
+interface Props { startDate: string; endDate: string; }
+const { startDate, endDate } = Astro.props;
+
+function viDate(iso: string) {
+  const d = new Date(iso);
+  return `${d.getUTCDate()}/${d.getUTCMonth()+1}/${d.getUTCFullYear()}`;
+}
+---
+<section class="relative">
+  <div class="absolute inset-0 -z-10">
+    <Image src={banner} alt="" widths={[800,1200,1920]} sizes="100vw" class="w-full h-full object-cover opacity-60" loading="eager" />
+    <div class="absolute inset-0 bg-gradient-to-b from-[var(--bg-deep)]/40 via-transparent to-[var(--bg-deep)]"></div>
+  </div>
+  <div class="container py-20 sm:py-28 text-center">
+    <p class="text-xs sm:text-sm tracking-[5px] text-[var(--gold)] font-bold">— FIFA WORLD CUP —</p>
+    <h1 class="font-display text-6xl sm:text-8xl md:text-9xl tracking-[6px] text-white mt-2">2026</h1>
+    <p class="mt-3 text-sm sm:text-base text-white/80 tracking-[2px]">{viDate(startDate)} — {viDate(endDate)}</p>
+    <p class="mt-1 text-xs tracking-[4px] text-[var(--text-muted)]">UNITED STATES · CANADA · MEXICO</p>
+  </div>
+</section>

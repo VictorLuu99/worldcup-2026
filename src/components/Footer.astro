@@ -1,0 +1,10 @@
+---
+interface Props { lastUpdated: string; }
+const { lastUpdated } = Astro.props;
+---
+<footer class="border-t border-white/5 mt-20">
+  <div class="container py-8 text-center text-xs text-[var(--text-muted)] tracking-wider">
+    <p>Dữ liệu cập nhật lần cuối: {lastUpdated}</p>
+    <p class="mt-1">Ảnh sân vận động: Wikipedia (CC-BY-SA). Cờ: <a href="https://github.com/lipis/flag-icons" class="underline">flag-icons</a> (MIT).</p>
+  </div>
+</footer>
