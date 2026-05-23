@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { PHASES } from './constants';
+import { PHASES, type Phase } from './constants';
 
 const isoDate = z.string().date();        // validates YYYY-MM-DD AND that the calendar date is real
 const isoUtc = z.string().datetime({ offset: false });  // requires Z suffix and valid time
@@ -49,7 +49,7 @@ export type TeamRef = z.infer<typeof teamRef>;
 export const matchSchema = z.object({
   id: z.number().int().positive(),
   matchNumber: z.number().int().min(1).max(104),
-  phase: z.enum(PHASES as [string, ...string[]]),
+  phase: z.enum(PHASES as unknown as [Phase, ...Phase[]]),
   group: z.string().regex(/^[A-L]$/).nullable(),
   kickoff: isoUtc,
   venueId: z.string().min(1),
