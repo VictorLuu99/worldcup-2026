@@ -2,6 +2,10 @@ export type Phase = 'group' | 'r32' | 'r16' | 'qf' | 'sf' | 'third' | 'final';
 
 export const PHASES: Phase[] = ['group', 'r32', 'r16', 'qf', 'sf', 'third', 'final'];
 
+/**
+ * Phase metadata. Note: `final` phase `color` is a CSS gradient via `var(--phase-final-gradient)`.
+ * Use `style={{ background: meta.color }}` for gradients; `backgroundColor` and Tailwind `bg-*` do not support gradients.
+ */
 export const PHASE_META: Record<Phase, {
   labelVi: string;
   color: string;          // CSS var name, NOT raw color

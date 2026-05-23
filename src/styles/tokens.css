@@ -31,7 +31,7 @@
 
 @keyframes live-pulse {
   0%, 100% { box-shadow: 0 0 24px rgba(34, 197, 94, 0.5); }
-  50% { box-shadow: 0 0 12px rgba(34, 197, 94, 0.25); }
+  50% { box-shadow: 0 0 12px rgba(34, 197, 94, 0.3); }
 }
 
 .live-pulse { animation: live-pulse 2s ease-in-out infinite; }
