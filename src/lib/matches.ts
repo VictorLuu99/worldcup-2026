@@ -1,5 +1,5 @@
 import type { Match } from './schemas';
-import { LIVE_WINDOW_MS, PHASES, PHASE_META } from './constants';
+import { LIVE_WINDOW_MS, PHASES } from './constants';
 
 export type MatchStatus = 'past' | 'live' | 'upcoming';
 
@@ -45,4 +45,3 @@ export function groupMatchesByDay(matches: Match[], tz: string): Array<{ dayKey:
     .map(([dayKey, matches]) => ({ dayKey, matches }));
 }
 
-export { PHASE_META };

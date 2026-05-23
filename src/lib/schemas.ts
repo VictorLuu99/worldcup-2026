@@ -1,8 +1,8 @@
 import { z } from 'zod';
 import { PHASES } from './constants';
 
-const isoDate = z.string().regex(/^\d{4}-\d{2}-\d{2}$/, 'YYYY-MM-DD');
-const isoUtc = z.string().regex(/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$/, 'must be ISO UTC ending in Z');
+const isoDate = z.string().date();        // validates YYYY-MM-DD AND that the calendar date is real
+const isoUtc = z.string().datetime({ offset: false });  // requires Z suffix and valid time
 
 export const tournamentSchema = z.object({
   name: z.string().min(1),

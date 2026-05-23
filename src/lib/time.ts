@@ -2,13 +2,14 @@ import { VN_TZ } from './constants';
 
 const VN_WEEKDAYS = ['Chủ Nhật', 'Thứ Hai', 'Thứ Ba', 'Thứ Tư', 'Thứ Năm', 'Thứ Sáu', 'Thứ Bảy'];
 
-function partsInTz(iso: string, tz: string): { y: number; m: number; d: number; hh: number; mm: number; weekday: number } {
+function partsInTz(iso: string, tz: string): { y: number; m: number; d: number; hh: number; mm: number; weekday: number; tzAbbr: string } {
   const date = new Date(iso);
   const fmt = new Intl.DateTimeFormat('en-US', {
     timeZone: tz,
     year: 'numeric', month: 'numeric', day: 'numeric',
     hour: '2-digit', minute: '2-digit', hour12: false,
     weekday: 'short',
+    timeZoneName: 'short',
   });
   const parts = Object.fromEntries(fmt.formatToParts(date).map(p => [p.type, p.value]));
   const weekdayMap: Record<string, number> = { Sun:0, Mon:1, Tue:2, Wed:3, Thu:4, Fri:5, Sat:6 };
@@ -19,6 +20,7 @@ function partsInTz(iso: string, tz: string): { y: number; m: number; d: number; 
     hh: Number(parts.hour === '24' ? '00' : parts.hour),
     mm: Number(parts.minute),
     weekday: weekdayMap[parts.weekday as string] ?? 0,
+    tzAbbr: parts.timeZoneName ?? '',
   };
 }
 
@@ -30,7 +32,7 @@ export function formatVNTime(isoUtc: string): string {
 
 export function formatLocalTime(isoUtc: string, tz: string): string {
   const p = partsInTz(isoUtc, tz);
-  return `${String(p.hh).padStart(2,'0')}:${String(p.mm).padStart(2,'0')}`;
+  return `${String(p.hh).padStart(2,'0')}:${String(p.mm).padStart(2,'0')} ${p.tzAbbr}`;
 }
 
 export function formatDateVN(isoUtc: string): string {

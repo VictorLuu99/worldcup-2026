@@ -12,9 +12,8 @@ describe('time helpers', () => {
     expect(out).toMatch(/(Thứ|CN)/);
   });
 
-  it('formatLocalTime: converts UTC to venue tz', () => {
-    // 2026-06-11 19:00 UTC in America/Los_Angeles (UTC-7 PDT) = 12:00 noon
-    expect(formatLocalTime('2026-06-11T19:00:00Z', 'America/Los_Angeles')).toMatch(/12:00/);
+  it('formatLocalTime: converts UTC to venue tz with abbreviation', () => {
+    expect(formatLocalTime('2026-06-11T19:00:00Z', 'America/Los_Angeles')).toMatch(/12:00 PDT/);
   });
 
   it('formatDateVN: returns short DD/M', () => {
