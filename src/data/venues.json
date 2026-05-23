@@ -1,0 +1,146 @@
+[
+  {
+    "id": "azteca",
+    "name": "Estadio Azteca",
+    "city": "Mexico City",
+    "country": "MEX",
+    "timezone": "America/Mexico_City",
+    "capacity": 83000,
+    "photo": "venues/azteca.jpg"
+  },
+  {
+    "id": "akron",
+    "name": "Estadio Akron",
+    "city": "Guadalajara",
+    "country": "MEX",
+    "timezone": "America/Mexico_City",
+    "capacity": 48000,
+    "photo": "venues/akron.jpg"
+  },
+  {
+    "id": "bbva",
+    "name": "Estadio BBVA",
+    "city": "Monterrey",
+    "country": "MEX",
+    "timezone": "America/Monterrey",
+    "capacity": 53500,
+    "photo": "venues/bbva.jpg"
+  },
+  {
+    "id": "bmo",
+    "name": "BMO Field",
+    "city": "Toronto",
+    "country": "CAN",
+    "timezone": "America/Toronto",
+    "capacity": 45000,
+    "photo": "venues/bmo.jpg"
+  },
+  {
+    "id": "bcplace",
+    "name": "BC Place",
+    "city": "Vancouver",
+    "country": "CAN",
+    "timezone": "America/Vancouver",
+    "capacity": 54000,
+    "photo": "venues/bcplace.jpg"
+  },
+  {
+    "id": "sofi",
+    "name": "SoFi Stadium",
+    "city": "Los Angeles",
+    "country": "USA",
+    "timezone": "America/Los_Angeles",
+    "capacity": 70000,
+    "photo": "venues/sofi.jpg"
+  },
+  {
+    "id": "levis",
+    "name": "Levi's Stadium",
+    "city": "Santa Clara",
+    "country": "USA",
+    "timezone": "America/Los_Angeles",
+    "capacity": 71000,
+    "photo": "venues/levis.jpg"
+  },
+  {
+    "id": "lumen",
+    "name": "Lumen Field",
+    "city": "Seattle",
+    "country": "USA",
+    "timezone": "America/Los_Angeles",
+    "capacity": 69000,
+    "photo": "venues/lumen.jpg"
+  },
+  {
+    "id": "att",
+    "name": "AT&T Stadium",
+    "city": "Arlington",
+    "country": "USA",
+    "timezone": "America/Chicago",
+    "capacity": 94000,
+    "photo": "venues/att.jpg"
+  },
+  {
+    "id": "arrowhead",
+    "name": "Arrowhead Stadium",
+    "city": "Kansas City",
+    "country": "USA",
+    "timezone": "America/Chicago",
+    "capacity": 73000,
+    "photo": "venues/arrowhead.jpg"
+  },
+  {
+    "id": "nrg",
+    "name": "NRG Stadium",
+    "city": "Houston",
+    "country": "USA",
+    "timezone": "America/Chicago",
+    "capacity": 72000,
+    "photo": "venues/nrg.jpg"
+  },
+  {
+    "id": "metlife",
+    "name": "MetLife Stadium",
+    "city": "East Rutherford",
+    "country": "USA",
+    "timezone": "America/New_York",
+    "capacity": 82500,
+    "photo": "venues/metlife.jpg"
+  },
+  {
+    "id": "gillette",
+    "name": "Gillette Stadium",
+    "city": "Foxborough",
+    "country": "USA",
+    "timezone": "America/New_York",
+    "capacity": 65000,
+    "photo": "venues/gillette.jpg"
+  },
+  {
+    "id": "lincoln",
+    "name": "Lincoln Financial Field",
+    "city": "Philadelphia",
+    "country": "USA",
+    "timezone": "America/New_York",
+    "capacity": 69000,
+    "photo": "venues/lincoln.jpg"
+  },
+  {
+    "id": "mercedesbenz",
+    "name": "Mercedes-Benz Stadium",
+    "city": "Atlanta",
+    "country": "USA",
+    "timezone": "America/New_York",
+    "capacity": 75000,
+    "photo": "venues/mercedesbenz.jpg"
+  },
+  {
+    "id": "hardrock",
+    "name": "Hard Rock Stadium",
+    "city": "Miami",
+    "country": "USA",
+    "timezone": "America/New_York",
+    "capacity": 65000,
+    "photo": "venues/hardrock.jpg"
+  }
+]
