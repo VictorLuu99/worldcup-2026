@@ -5,6 +5,7 @@ import Hero from '~/components/Hero.astro';
 import StatsStrip from '~/components/StatsStrip.astro';
 import Footer from '~/components/Footer.astro';
 import { TimelineView } from '~/components/timeline/TimelineView';
+import { BracketView } from '~/components/bracket/BracketView';
 import { loadAllData } from '~/lib/data';
 
 const data = loadAllData();
@@ -33,9 +34,7 @@ for (const [path, mod] of Object.entries(venueImageModules)) {
   </div>
 
   <div id="view-bracket" style="display:none">
-    <main class="container py-12">
-      <p class="text-[var(--text-muted)]">Bracket placeholder — coming in Task 18</p>
-    </main>
+    <BracketView client:idle matches={data.matches} groups={data.groups} teams={data.teams} />
   </div>
 
   <Footer lastUpdated={data.tournament.lastUpdated} />
