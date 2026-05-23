@@ -2,6 +2,8 @@
 
 Vietnamese single-page site for FIFA World Cup 2026 (USA · Canada · Mexico). Chronological timeline + bracket overview, deployed to Cloudflare Pages.
 
+**🔗 Production:** https://worldcup-2026-dx0.pages.dev
+
 ## Features
 
 - 104 matches across all 7 phases (group → R32 → R16 → QF → SF → third place → final)
