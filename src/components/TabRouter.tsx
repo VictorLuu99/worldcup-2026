@@ -39,12 +39,12 @@ export function TabRouter() {
       <button onClick={() => switchTo('timeline')}
         aria-label="Xem dạng timeline"
         className={`px-3 py-1.5 rounded-full text-xs tracking-wider inline-flex items-center gap-1 transition ${view==='timeline' ? 'bg-[var(--gold)] text-[var(--bg-deep)] font-bold' : 'text-white/70 hover:text-white'}`}>
-        <Calendar size={14} /> TIMELINE
+        <Calendar size={14} /> <span className="hidden sm:inline">TIMELINE</span>
       </button>
       <button onClick={() => switchTo('bracket')}
         aria-label="Xem dạng bracket"
         className={`px-3 py-1.5 rounded-full text-xs tracking-wider inline-flex items-center gap-1 transition ${view==='bracket' ? 'bg-[var(--gold)] text-[var(--bg-deep)] font-bold' : 'text-white/70 hover:text-white'}`}>
-        <Trophy size={14} /> BRACKET
+        <Trophy size={14} /> <span className="hidden sm:inline">BRACKET</span>
       </button>
     </div>
   );

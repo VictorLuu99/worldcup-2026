@@ -37,12 +37,22 @@ export function MatchRow({ match, teams, venues, venueImageMap, nowMs, isNext }:
       id={`match-${match.id}`}
       data-status={status}
       className={`${baseClasses} ${liveClasses}`}
+      role="button"
+      tabIndex={0}
+      aria-expanded={expanded}
+      aria-label={`Trận ${match.matchNumber}, nhấn để xem chi tiết`}
       style={{
         borderLeft: `3px solid ${meta.color}`,
         boxShadow: isNext ? 'var(--next-glow)' : undefined,
         background: isNext ? 'rgba(255,214,10,0.05)' : 'rgba(255,255,255,0.02)',
       }}
       onClick={() => setExpanded(e => !e)}
+      onKeyDown={(e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          setExpanded(expanded => !expanded);
+        }
+      }}
     >
       <div className="flex items-center gap-3 flex-wrap">
         <span className="font-mono text-[10px] text-[var(--text-muted)] tracking-wider">
